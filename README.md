@@ -52,3 +52,12 @@ Compatible With:
 
      Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
 
+# Credits
+  
+  - Mald0n for introducing me to hackintosh and giving me my first pre-made folder (Olarila.com)
+  - Nmano for mantaining actively Kernel Patches for x99/x299 between Mac OS versions
+  - Pike R for introducing Patches for x79/x99/x299 
+  - Acidanthera team for developing Opencore and most Kexts
+  - Apple for developing MacOS
+
+
