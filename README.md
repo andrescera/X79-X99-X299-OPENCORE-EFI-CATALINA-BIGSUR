@@ -1,2 +1,42 @@
-# X99-OPENCORE-EFI-CATALINA-BIGSUR
+# X99 OPENCORE EFI CATALINA AND BIG SUR
 X99 Opencore config repository for Catalina and Big Sur
+
+Opencore Version: 0.6.4
+
+Compatible With:
+
+# Catalina
+ - 10.15.6
+ - 10.15.7
+
+# Big Sur
+ - 11.0.1
+
+# Included Full Patched DSDT for
+
+ - HUANANZHI X99-F8 AND HUANANZHI X99-TF "DSDT-HUANANZHI.aml"
+
+# Included SSDT for:
+
+ - Disabling PCI Uncore Bridges  "SSDT-UNC0.aml" (Causes KernelPanic ^19.7.0 Kernels)
+ - Renaming CPU to CP0 PCI Uncore Bridges  "X99-CP00-XCPM.aml" (As a Real MAC)
+
+# HASWELL/BROADWELL (E/EP) Power Management
+
+ - On KERNEL>Cpuid1Mask
+  Replace:
+   F2060300 00000000 00000000 00000000 for HASWELL-E/EP
+   F1060400 00000000 00000000 00000000 for BROADWELL-E/EP
+
+ - On KERNEL>Patch
+
+	HASWELL-E/EP
+   	 xcpm_bootstrap_HASwell-E (c) Pike R.  		(ENABLE)
+     xcpm_bootstrap_Broadwell-E (c) Pike R.  	(DISABLE)
+
+    BROADWELL-E/EP
+   	 xcpm_bootstrap_HASwell-E (c) Pike R.  		(DISABLE)
+     xcpm_bootstrap_Broadwell-E (c) Pike R.  	(ENABLE)
+
+     Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
+
