@@ -1,6 +1,15 @@
 # X99 OPENCORE EFI CATALINA AND BIG SUR
 X99 Opencore config repository for Catalina and Big Sur
 
+
+
+If you wanna give a smile to me:
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="UHSEGfn" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
+
+
+
 Opencore Version: 0.6.4
 
 Compatible With:
@@ -25,7 +34,9 @@ Compatible With:
 
  - On KERNEL>Cpuid1Mask
   Replace:
+
    F2060300 00000000 00000000 00000000 for HASWELL-E/EP
+   
    F1060400 00000000 00000000 00000000 for BROADWELL-E/EP
 
  - On KERNEL>Patch
