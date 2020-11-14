@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20B29</string>
+	<string>17A365</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>RealtekRTL8111</string>
+	<string>SmallTreeIntel82576</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.insanelymac.RealtekRTL8111</string>
+	<string>com.smalltree.driver.SmallTreeIntel82576</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>RealtekRTL8111</string>
+	<string>SmallTreeIntel82576</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.4.0d5</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,72 +25,45 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.4.0d5</string>
+	<string>1.2.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12B45b</string>
-	<key>DTPlatformName</key>
-	<string>macosx</string>
+	<string>9A235</string>
 	<key>DTPlatformVersion</key>
-	<string>11.0</string>
+	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>20A2408</string>
+	<string>17A360</string>
 	<key>DTSDKName</key>
-	<string>macosx11.0</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>1220</string>
+	<string>0900</string>
 	<key>DTXcodeBuild</key>
-	<string>12B45b</string>
+	<string>9A235</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>RTL8111 PCIe Adapter</key>
+		<key>SmallTreeIntel82576</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.insanelymac.RealtekRTL8111</string>
-			<key>Driver Parameters</key>
-			<dict>
-				<key>disableASPM</key>
-				<true/>
-				<key>enableCSO6</key>
-				<true/>
-				<key>enableEEE</key>
-				<true/>
-				<key>enableTSO4</key>
-				<true/>
-				<key>enableTSO6</key>
-				<true/>
-				<key>fallbackMAC</key>
-				<string></string>
-				<key>intrMitigate</key>
-				<integer>53080</integer>
-				<key>rxPolling</key>
-				<true/>
-			</dict>
-			<key>Driver_Version</key>
-			<string>2.4.0d5</string>
+			<string>com.smalltree.driver.SmallTreeIntel82576</string>
 			<key>IOClass</key>
-			<string>RTL8111</string>
-			<key>IOPCIMatch</key>
-			<string>0x816810ec 0x81681186 0x250210ec 0x260010ec</string>
-			<key>IOProbeScore</key>
-			<integer>1000</integer>
+			<string>SmallTreeIntel82576</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x15218086 0x15228086 0x15398086</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Model</key>
-			<string>RTL8111</string>
-			<key>Vendor</key>
-			<string>Realtek</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>IOUserClientClass</key>
+			<string>STECUserClient</string>
 		</dict>
 	</dict>
-	<key>LSMinimumSystemVersion</key>
-	<string>10.15</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 Laura Müller. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IONetworkingFamily</key>
-		<string>1.5.0</string>
+		<string>1.5</string>
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>1.7</string>
 		<key>com.apple.kpi.bsd</key>
@@ -102,7 +75,5 @@
 		<key>com.apple.kpi.mach</key>
 		<string>8.10.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Network-Root</string>
 </dict>
 </plist>
