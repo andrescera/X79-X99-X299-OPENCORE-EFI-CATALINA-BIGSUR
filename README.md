@@ -43,10 +43,12 @@ Compatible With:
  - On KERNEL>Patch
 
 	HASWELL-E/EP
+  
    	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(ENABLE)
      - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(DISABLE)
 
   BROADWELL-E/EP
+
    	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(DISABLE)
      - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(ENABLE)
 
