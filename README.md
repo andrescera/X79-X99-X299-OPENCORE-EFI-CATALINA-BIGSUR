@@ -1,4 +1,4 @@
-# X99 OPENCORE EFI CATALINA AND BIG SUR
+# X99 HACKINTOSH EFI CATALINA AND BIG SUR
 X99 Opencore config repository for Catalina and Big Sur
 
 
