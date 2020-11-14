@@ -5,3 +5,4 @@ Opencore Version 0.6.4
 # 0.0.2
 
 - Rectructured folders' tree
+- Lan kexts were added 
