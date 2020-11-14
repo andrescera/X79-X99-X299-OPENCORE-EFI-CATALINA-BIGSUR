@@ -47,13 +47,12 @@ Compatible With:
    	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(ENABLE)
      - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(DISABLE)
 
-  BROADWELL-E/EP
-
-   	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(DISABLE)
+    BROADWELL-E/EP
+     - xcpm_bootstrap_HASwell-E (c) Pike R.     (DISABLE)
      - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(ENABLE)
-
-     Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
-
+```
+ Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
+```
 # Credits
   
   - Mald0n for introducing me to hackintosh and giving me my first pre-made folder (Olarila.com)
