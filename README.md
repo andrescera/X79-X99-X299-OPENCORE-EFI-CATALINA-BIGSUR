@@ -66,9 +66,10 @@ Universal SSDT can be used on any x99 motherboard (Common issues)
 # Credits
   
   - Mald0n for introducing me to hackintosh and giving me my first pre-made folder (Olarila.com)
-  - Nmano for mantaining actively Kernel Patches for x99/x299 between Mac OS versions
+  - Nmano for mantaining actively Kernel Patches for x99/x299 between Mac OS versions (insanelymac.com)
+  - e97 for it's original HackPro X99 System post (insanelymac.com)
   - Pike R for introducing Patches for x79/x99/x299 
-  - Acidanthera team for developing Opencore and most Kexts
+  - Acidanthera team for developing Opencore and most Kexts (github.com/acidanthera)
   - Apple for developing MacOS
 
 
