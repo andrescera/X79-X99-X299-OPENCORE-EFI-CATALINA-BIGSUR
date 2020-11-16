@@ -8,22 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>X99-TF OR X99-F8</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>DSDT-HUANANZHI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>CPU-CP0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>X99-CP00-XCPM.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>DISABLE-UCORE-PCI-BRIDGES</string>
 				<key>Enabled</key>
 				<true/>
@@ -318,7 +302,7 @@
 				<key>BundlePath</key>
 				<string>SmallTreeIntel82576.kext</string>
 				<key>Comment</key>
-				<string>10 Gbits Intel Lan </string>
+				<string>10 Gbits Intel Lan</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>

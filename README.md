@@ -22,14 +22,24 @@ Compatible With:
 # Big Sur
  - 11.0.1
 
-# Included Full Patched DSDT for
+# Included Full Patched DSDT/SSDT Depending on your Motherboard:
 
- - HUANANZHI X99-F8 AND HUANANZHI X99-TF "DSDT-HUANANZHI.aml"
+ - HUANANZHI FOLDER F8 or TF "DSDT-HUANANZHI.aml"
+ - MACHINIST FOLDER, Bunch of SSDT
+
+ ```
+Copy all them from the specific ACPI/"FOLDER" depending on your motherboard to ACPI/ and activate them on config.plist>ACPI>add 
+ ```
 
 # Included SSDT for:
 
- - Disabling PCI Uncore Bridges  "SSDT-UNC0.aml" (Causes KernelPanic ^19.7.0 Kernels)
- - Renaming CPU to CP0 PCI Uncore Bridges  "X99-CP00-XCPM.aml" (As a Real MAC)
+ - Disabling PCI Uncore Bridges  "SSDT-UNC0.aml" (Causes KernelPanic ^19.7.0 Kernels) (Universal)
+ - Renaming CPU to CP00 PCI Uncore Bridges  "X99-CP00-XCPM.aml" (As a Real MAC) (Universal)
+
+
+ ```
+Universal SSDT can be used on any x99 motherboard (Common issues)
+ ```
 
 # HASWELL/BROADWELL (E/EP) Power Management
 
