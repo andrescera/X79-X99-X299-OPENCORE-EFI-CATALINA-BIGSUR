@@ -67,7 +67,7 @@ Universal SSDT can be used on any x99 motherboard (Common issues)
   
   - Mald0n for introducing me to hackintosh and giving me my first pre-made folder (Olarila.com)
   - Nmano for mantaining actively Kernel Patches for x99/x299 between Mac OS versions (insanelymac.com)
-  - e97 for it's original HackPro X99 System post (insanelymac.com)
+  - e97 for it's original HackPro X99 System post which was of the first X99 Successful build which started which inspired us(insanelymac.com)
   - RemB for it's UNC0-SSDT.aml in order to disable Uncore PCI Bridges (insanelymac.com)
   - Pike R for introducing Patches for x79/x99/x299 
   - Acidanthera team for developing Opencore and most Kexts (github.com/acidanthera)
