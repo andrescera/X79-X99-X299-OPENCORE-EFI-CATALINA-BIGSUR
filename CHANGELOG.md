@@ -11,3 +11,4 @@ Opencore Version 0.6.4
 
 - ACPI/HUANANZHI-F8 OR TF folder
 - ACPI/MACHINIST-X99 folder
+- ACPI/JingSha-SZMZ X99 Dual
