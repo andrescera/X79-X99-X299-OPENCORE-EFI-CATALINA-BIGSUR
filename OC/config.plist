@@ -538,7 +538,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
+				<string>xcpm_bootstrap_ Broadwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -557,6 +557,66 @@
 				<string>20.1.0</string>
 				<key>Replace</key>
 				<data>jUO8PEJ3Ig==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 11.0.1</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>jUPEPEJ3Ig==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.1.0</string>
+				<key>Replace</key>
+				<data>jUO9PEJ3Ig==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano﻿ 11.0.1</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>jUPEPEJ3Ig==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.1.0</string>
+				<key>Replace</key>
+				<data>jUPGPEJ3Ig==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -887,6 +947,66 @@
 				<string>19.6.0</string>
 				<key>Replace</key>
 				<data>jUO8PEJ3Ig==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 10.15.6/10.15.7</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>jUPEPEJ3Ig==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>19.7.0</string>
+				<key>MinKernel</key>
+				<string>19.6.0</string>
+				<key>Replace</key>
+				<data>jUO9PEJ3Ig==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano 10.15.6/10.15.7</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>jUPEPEJ3Ig==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>19.7.0</string>
+				<key>MinKernel</key>
+				<string>19.6.0</string>
+				<key>Replace</key>
+				<data>jUPGPEJ3Ig==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
