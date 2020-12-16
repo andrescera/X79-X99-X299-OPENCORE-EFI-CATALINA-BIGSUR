@@ -54,16 +54,14 @@ Universal SSDT can be used on any x99 motherboard (Common issues)
    
    54060500 00000000 00000000 00000000 for SKYLAKE-X/H
 
+   E4060300 00000000 00000000 00000000 for IVY BRIDGE-E/EN/EP
+
  - On KERNEL>Patch
 
-	HASWELL-E/EP
+	FIND YOR XCPM_BOOTSTRAP_PATCH ENABLE IT AND DISABLE THE REST OF XCPM_BOOTSTRAP Patchets for the other processors
   
    	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(ENABLE)
-     - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(DISABLE)
 
-    BROADWELL-E/EP
-     - xcpm_bootstrap_HASwell-E (c) Pike R.     (DISABLE)
-     - xcpm_bootstrap_Broadwell-E (c) Pike R.  	(ENABLE)
 ```
  Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
 ```
