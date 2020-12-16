@@ -26,6 +26,11 @@ Compatible With:
 
  - HUANANZHI FOLDER F8 or TF "DSDT-HUANANZHI.aml"
  - MACHINIST FOLDER, Bunch of SSDT
+ - JINGSHA SZMZ X99 Dual, Bunch of SSDT
+
+ All of them tested with BIOS-IEGINEER's BIOSES
+
+ <a href="https://github.com/BIOS-iEngineer" target="_blank">https://github.com/BIOS-iEngineer</a>
 
  ```
 Copy all them from the specific ACPI/"FOLDER" depending on your motherboard to ACPI/ and activate them on config.plist>ACPI>add 
@@ -58,9 +63,8 @@ Universal SSDT can be used on any x99 motherboard (Common issues)
 
  - On KERNEL>Patch
 
-	FIND YOR XCPM_BOOTSTRAP_PATCH ENABLE IT AND DISABLE THE REST OF XCPM_BOOTSTRAP Patchets for the other processors
+	FIND YOR XCPM_BOOTSTRAP_PATCH ENABLE IT AND DISABLE THE REST OF XCPM_BOOTSTRAP Patches for the other processors
   
-   	 - xcpm_bootstrap_HASwell-E (c) Pike R.  		(ENABLE)
 
 ```
  Remember that there is 2 of each patch one for CATALINA and the other for BIG SUR
