@@ -37,8 +37,12 @@
 	<dict>
 		<key>MmioWhitelist</key>
 		<array/>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -358,6 +362,36 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
+				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 11.1</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>MdLonVIBAA==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.2.0</string>
+				<key>Replace</key>
+				<data>MdKQkJCQkA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
 				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
 				<key>Count</key>
 				<integer>0</integer>
@@ -372,7 +406,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>20.1.0</string>
 				<key>MinKernel</key>
 				<string>20.1.0</string>
 				<key>Replace</key>
@@ -388,7 +422,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msrs  Modify By N.Mano 11.0.1</string>
+				<string>_xcpm_pkg_scope_msrs  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -418,7 +452,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs #1  Modify By N.Mano 11.0.1</string>
+				<string>_xcpm_SMT_scope_msrs #1  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -448,7 +482,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs_2  Modify By N.Mano 11.0.1</string>
+				<string>_xcpm_SMT_scope_msrs_2  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -478,7 +512,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>__xcpm_enable_pstate_patch  Modify By N.Mano 11.0.1</string>
+				<string>__xcpm_enable_pstate_patch  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -508,7 +542,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
+				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -538,7 +572,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap_ Broadwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
+				<string>xcpm_bootstrap_ Broadwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -568,7 +602,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 11.0.1</string>
+				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -598,7 +632,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano﻿ 11.0.1</string>
+				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -628,7 +662,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano 11.0.1</string>
+				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -658,7 +692,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm MSR Patch 4206  By N.Mano 11.0.1</string>
+				<string>xcpm MSR Patch 4206  By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -688,7 +722,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm support /0x82D390/MSR_PP0_POLICY 0x63a  Modify By N.Mano 11.0.1</string>
+				<string>xcpm support /0x82D390/MSR_PP0_POLICY 0x63a  Modify By N.Mano 11.0.1, 11.1</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -1018,36 +1052,6 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAABQAAHg==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAAAwQAfg==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
 				<string>xcpm MSR Patch 4206  By N.Mano 10.15.6/10.15.7</string>
 				<key>Count</key>
 				<integer>0</integer>
@@ -1127,6 +1131,36 @@
 				<string>19.6.0</string>
 				<key>Replace</key>
 				<data>igKEwOsN</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAABQAAHg==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAAAwQAfg==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1243,6 +1277,8 @@
 				<string>CustomOS</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -1254,6 +1290,8 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
+			<false/>
+			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
@@ -1269,10 +1307,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>SecureBootModel</key>
-			<string>Disabled</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1291,6 +1329,10 @@
 				<string>UEFI Shell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1305,6 +1347,10 @@
 				<string>memcheck</string>
 				<key>Path</key>
 				<string>memcheck/memcheck.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1319,6 +1365,10 @@
 				<string>Shutdown</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -1399,12 +1449,12 @@
 			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
@@ -1451,7 +1501,7 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string></string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
