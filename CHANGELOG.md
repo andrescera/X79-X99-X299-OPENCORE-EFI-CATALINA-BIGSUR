@@ -13,3 +13,5 @@ Opencore Version 0.6.4
 - ACPI/MACHINIST-X99 folder
 - ACPI/JingSha-SZMZ X99 Dual
 - X79 and X299 SUPPORT
+- Opencore 0.6.5
+- Kexts Updated
