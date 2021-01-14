@@ -6,7 +6,7 @@ X99 Opencore config repository for Catalina and Big Sur
 If you wanna give a smile to me:
 
 <a href="https://www.paypal.com/donate?business=7KKQS9KBSAMNE&item_name=Maintaining+HEDT+hackintosh+related+repositories&currency_code=USD" target="_blank">
-  <img width="50" height="auto" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal"/>
+  <img width="300" height="auto" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal"/>
 </a>
 
 
