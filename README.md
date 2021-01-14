@@ -5,7 +5,9 @@ X99 Opencore config repository for Catalina and Big Sur
 
 If you wanna give a smile to me:
 
-<a href="https://buymeacoffee.com/UHSEGfn" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.paypal.com/donate?business=7KKQS9KBSAMNE&item_name=Maintaining+HEDT+hackintosh+related+repositories&currency_code=USD" target="_blank">
+  <img width="50" height="auto" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal"/>
+</a>
 
 
 
@@ -63,7 +65,7 @@ Universal SSDT can be used on any x99 motherboard (Common issues)
 
  - On KERNEL>Patch
 
-	FIND YOR XCPM_BOOTSTRAP_PATCH ENABLE IT AND DISABLE THE REST OF XCPM_BOOTSTRAP Patches for the other processors
+	FIND YOUR XCPM_BOOTSTRAP_PATCH ENABLE IT AND DISABLE THE REST OF XCPM_BOOTSTRAP Patches for the other processors
   
 
 ```
