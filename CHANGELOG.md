@@ -15,3 +15,9 @@ Opencore Version 0.6.4
 - X79 and X299 SUPPORT
 - Opencore 0.6.5
 - Kexts Updated
+
+# 0.0.5
+
+- Opencore 0.6.8
+- Kext update to latest version (20/04/2021)
+- New quirks applied

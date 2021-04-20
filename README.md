@@ -13,7 +13,7 @@ If you wanna give a smile to me:
 
 
 
-Opencore Version: 0.6.4
+Opencore Version: 0.6.8
 
 Compatible With:
 
@@ -23,6 +23,7 @@ Compatible With:
 
 # Big Sur
  - 11.0.1
+ - 11.2.3
 
 # Included Full Patched DSDT/SSDT Depending on your Motherboard:
 
