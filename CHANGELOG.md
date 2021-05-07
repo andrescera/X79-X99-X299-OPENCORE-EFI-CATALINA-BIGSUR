@@ -21,3 +21,6 @@ Opencore Version 0.6.4
 - Opencore 0.6.8
 - Kext update to latest version (20/04/2021)
 - New quirks applied
+- Drop catalina and lower versions of big sur support (you can checkout older commits if you need to use an older version)
+- Add 11.3 Support
+- i9 10980HK

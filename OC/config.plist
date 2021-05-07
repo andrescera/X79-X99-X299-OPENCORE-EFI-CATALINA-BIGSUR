@@ -364,13 +364,13 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 11.1</string>
+				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>MdLonVIBAA==</data>
+				<data>MdLo3U0BAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -380,7 +380,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.2.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>MdKQkJCQkA==</data>
 				<key>ReplaceMask</key>
@@ -394,13 +394,13 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 11.0.1</string>
+				<string>_xcpm_pkg_scope_msrs  Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>MdLorVIBAA==</data>
+				<data>MdLoyiL//w==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -408,9 +408,9 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>20.1.0</string>
+				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>MdKQkJCQkA==</data>
 				<key>ReplaceMask</key>
@@ -424,37 +424,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msrs  Modify By N.Mano 11.0.1, 11.1</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>MdLoqiH//w==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>20.1.0</string>
-				<key>Replace</key>
-				<data>MdKQkJCQkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs #1  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>_xcpm_SMT_scope_msrs #1  Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -470,7 +440,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>vgYAAABdw5CQkJA=</data>
 				<key>ReplaceMask</key>
@@ -484,13 +454,13 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs_2  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>_xcpm_SMT_scope_msrs_2  Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>MdLoOP3//w==</data>
+				<data>MdLoLv3//w==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -500,7 +470,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>MdKQkJCQkA==</data>
 				<key>ReplaceMask</key>
@@ -514,7 +484,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>__xcpm_enable_pstate_patch  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>__xcpm_enable_pstate_patch  Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -530,7 +500,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>QcHmCLgA/wAAMdKQkA==</data>
 				<key>ReplaceMask</key>
@@ -544,7 +514,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -560,7 +530,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>jUPBPEJ3Ig==</data>
 				<key>ReplaceMask</key>
@@ -574,7 +544,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap_ Broadwell_E (c) Pike R. Alpha Modify By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -590,37 +560,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
-				<key>Replace</key>
-				<data>jUO8PEJ3Ig==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 11.0.1, 11.1</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>jUPEPEJ3Ig==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>jUO9PEJ3Ig==</data>
 				<key>ReplaceMask</key>
@@ -634,7 +574,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm_bootstrap Broadwell-E  Modify By N.Mano  11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -650,7 +590,37 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
+				<key>Replace</key>
+				<data>jUO8PEJ3Ig==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano 11.3</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>jUPEPEJ3Ig==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>jUPGPEJ3Ig==</data>
 				<key>ReplaceMask</key>
@@ -664,13 +634,13 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm_bootstrap Comet Lake  (I9-10980HK) 0x0A0652 Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAABQAAHg==</data>
+				<data>jUPEPEJ3Ig==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -680,9 +650,9 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAAAwQAfg==</data>
+				<data>jUPGPEJ3Ig==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -694,7 +664,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm MSR Patch 4206  By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm MSR Patch 4206  By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -710,7 +680,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>QgYAAAAAAAAAAAAAAAAAAB8AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
 				<key>ReplaceMask</key>
@@ -724,7 +694,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>xcpm support /0x82D390/MSR_PP0_POLICY 0x63a  Modify By N.Mano 11.0.1, 11.1</string>
+				<string>xcpm support /0x82D390/MSR_PP0_POLICY 0x63a  Modify By N.Mano  11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -740,7 +710,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>OgYAAAAAAAAAAAAAAAAAAB8=</data>
 				<key>ReplaceMask</key>
@@ -754,7 +724,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Disable panic kext logging on Modify By N.Mano 11.0.1</string>
+				<string>Disable panic kext  +0x7700 Modify By N.Mano 11.3</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -770,399 +740,9 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.1.0</string>
+				<string>20.4.0</string>
 				<key>Replace</key>
 				<data>igKEwOsN</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_core_scope_msrs (c) Pike R. Alpha Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>MdLoV9L//w==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>MdKQkJCQkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msrs  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>MdLo6fn+/w==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>MdKQkJCQkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs #1  Modify By N.Mano  10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>vgYAAABd6QgAAAA=</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>vgYAAABdw5CQkJA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>_xcpm_SMT_scope_msrs_2  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>MdLoOP3//w==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>MdKQkJCQkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>__xcpm_enable_pstate_patch  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>QcHmCElj1onQSMHqIA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>QcHmCLgA/wAAMdKQkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_bootstrap_HASwell_E (c) Pike R. Alpha Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>jUPEPEJ3Ig==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>jUPBPEJ3Ig==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_bootstrap Broadwell-E  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>jUPEPEJ3Ig==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>jUO8PEJ3Ig==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_bootstrap Skylake-X/Cascade Lake-X  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>jUPEPEJ3Ig==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>jUO9PEJ3Ig==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm_bootstrap IvyBridge E  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>jUPEPEJ3Ig==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>jUPGPEJ3Ig==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm MSR Patch 4206  By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>QgYAANwzBgAAAAAAAAAAAB8AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>QgYAAAAAAAAAAAAAAAAAAB8AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>xcpm support /0x82D390/MSR_PP0_POLICY 0x63a  Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>OgYAANwzBgAAAAAAAAAAAB8=</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>OgYAAAAAAAAAAAAAAAAAAB8=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Disable panic kext logging on Modify By N.Mano 10.15.6/10.15.7</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>igKEwHQN</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.7.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>igKEwOsN</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>_C6/C7_If=E2-Enabled=0x7E000403  Modify By N.Mano</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAABQAAHg==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>4gAAAEwAAAAAAAAAAAAAAA8EAAAAAAAAAwQAfg==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>

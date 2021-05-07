@@ -17,13 +17,8 @@ Opencore Version: 0.6.8
 
 Compatible With:
 
-# Catalina
- - 10.15.6
- - 10.15.7
-
 # Big Sur
- - 11.0.1
- - 11.2.3
+ - 11.3
 
 # Included Full Patched DSDT/SSDT Depending on your Motherboard:
 
